@@ -1,3 +1,6 @@
+/**
+ * @see https://candyframework.github.io/candyjs-guide/
+ */
 import '@candyjs/tswrapper';
 
 import CandyJs from 'candyjs';
