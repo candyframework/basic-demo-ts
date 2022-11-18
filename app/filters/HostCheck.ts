@@ -31,6 +31,6 @@ export default class HostCheck extends ActionFilter {
         // 阻止下一个过滤器执行
         actionEvent.valid = false;
 
-        actionEvent.response.end('can only access with 127.0.0.1');
+        actionEvent.response.end('can only access by permitted hosts: ' + allowedHosts.toString());
     }
 }
