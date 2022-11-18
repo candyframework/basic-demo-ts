@@ -17,9 +17,8 @@ export default class IndexController extends Controller {
     }
 
     run(req, res) {
-        this.getView().getViewContent('index', (err, data) => {
-            res.write(data);
-            res.end();
+        this.render('index', {
+            title: 'Hello CandyJs With TypeScript.'
         });
     }
 
