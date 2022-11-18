@@ -1,0 +1,10 @@
+{
+    "verbose": true,
+    "ignore": ["public/"],
+    "delay": 1000,
+    "watch": ["app/"],
+    "execMap": {
+        "ts": "ts-node"
+    },
+    "ext": "ts,js,json"
+}
