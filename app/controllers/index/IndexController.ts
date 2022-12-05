@@ -21,7 +21,7 @@ export default class IndexController extends Controller {
         this.getView().enableLayout = true;
 
         this.render('index', {
-            title: 'Hello CandyJs With TypeScript.'
+            content: 'Hello CandyJs With TypeScript.'
         });
     }
 
