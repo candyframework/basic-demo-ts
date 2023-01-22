@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@candyjs/template-hbs": "^1.0.3",
+    "@candyjs/template-hbs": "^1.0.5",
     "@candyjs/tswrapper": "0.0.2",
-    "candyjs": "^4.17.0"
+    "candyjs": "^4.17.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.36",
